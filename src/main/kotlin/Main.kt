@@ -1,4 +1,5 @@
-fun main(args: Array<String>) {
-    Loops().loopWhile()
-    Loops().loopDoWhile()
+fun main() {
+    // Loops().loopWhile()
+    //Loops().loopDoWhile()
+    Loops().loopFor()
 }
