@@ -1,5 +1,6 @@
 fun main() {
-    // Loops().loopWhile()
+    //Loops().loopWhile()
     //Loops().loopDoWhile()
-    Loops().loopFor()
+    //Loops().loopFor()
+    NullSafety().tryCatch()
 }
