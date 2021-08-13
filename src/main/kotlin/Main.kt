@@ -8,5 +8,6 @@ fun main() {
     //Collections().arrays()
     //Collections().orderLists()
     //Collections().maps()
-    Collections().sets()
+    //Collections().sets()
+    Functions().functions()
 }
