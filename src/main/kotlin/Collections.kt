@@ -60,4 +60,35 @@ class Collections {
         val filterNumbers = lotteryNumbers.filter { number -> number > 50 }
         println(filterNumbers)
     }
+
+    fun maps() {
+        val superheroAges = mapOf(
+            "Ironman" to 35,
+            "Spiderman" to 23,
+            "Capitán América" to 99
+        )
+        println(superheroAges)
+
+        val superheroAgesMutable = mutableMapOf(
+            "Ironman" to 35,
+            "Spiderman" to 23,
+            "Capitán América" to 99
+        )
+        println(superheroAgesMutable)
+
+        superheroAgesMutable.put("Wolverine", 45)
+        println(superheroAgesMutable)
+
+        superheroAgesMutable["Storm"] = 30
+        println(superheroAgesMutable)
+
+        val ironmanAge = superheroAgesMutable["Ironman"]
+        println(ironmanAge)
+
+        superheroAgesMutable.remove("Wolverine")
+        println(superheroAgesMutable)
+
+        println(superheroAgesMutable.keys)
+        println(superheroAgesMutable.values)
+    }
 }

@@ -6,5 +6,6 @@ fun main() {
     //NullSafety().elvis()
     //Collections().lists()
     //Collections().arrays()
-    Collections().orderLists()
+    //Collections().orderLists()
+    Collections().maps()
 }
