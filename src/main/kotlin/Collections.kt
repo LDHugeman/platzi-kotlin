@@ -32,4 +32,32 @@ class Collections {
         println("Nuestro array $myArray")
         println("Array como lista ${myArray.toList()}")
     }
+
+    fun orderLists() {
+        val lotteryNumbers = listOf(11, 22, 43, 56, 78, 66)
+
+        val sortedNumbers = lotteryNumbers.sorted()
+        println(sortedNumbers)
+
+        val sortedDescendingNumbers = lotteryNumbers.sortedDescending()
+        println(sortedDescendingNumbers)
+
+        val sortedByMultiples = lotteryNumbers.sortedBy { number -> number < 50 }
+        println(sortedByMultiples)
+
+        val randomNumbers = lotteryNumbers.shuffled()
+        println(randomNumbers)
+
+        val reversedNumbers = lotteryNumbers.reversed()
+        println(reversedNumbers)
+
+
+        val numberMessages =
+            lotteryNumbers
+                .map { number -> ("Tu número de lotería es $number") }
+                .forEach { number -> println(number) }
+
+        val filterNumbers = lotteryNumbers.filter { number -> number > 50 }
+        println(filterNumbers)
+    }
 }

@@ -5,5 +5,6 @@ fun main() {
     //NullSafety().tryCatch()
     //NullSafety().elvis()
     //Collections().lists()
-    Collections().arrays()
+    //Collections().arrays()
+    Collections().orderLists()
 }
