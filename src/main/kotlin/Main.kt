@@ -7,5 +7,6 @@ fun main() {
     //Collections().lists()
     //Collections().arrays()
     //Collections().orderLists()
-    Collections().maps()
+    //Collections().maps()
+    Collections().sets()
 }

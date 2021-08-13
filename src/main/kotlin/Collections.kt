@@ -91,4 +91,19 @@ class Collections {
         println(superheroAgesMutable.keys)
         println(superheroAgesMutable.values)
     }
+
+    fun sets() {
+        val repeatedVowels = setOf("a", "e", "i", "o", "u", "a", "e", "i", "o", "u")
+        println(repeatedVowels)
+
+        val favouriteNumbers = mutableSetOf(1, 2, 3, 4)
+        favouriteNumbers.add(5)
+        println(favouriteNumbers)
+
+        favouriteNumbers.remove(5)
+        println(favouriteNumbers)
+
+        val setValue: Int? = favouriteNumbers.firstOrNull { number -> number > 2 }
+        println(setValue ?: "No se ha encontrado un número válido")
+    }
 }
