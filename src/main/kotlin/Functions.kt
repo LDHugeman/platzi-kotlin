@@ -51,6 +51,4 @@ class Functions {
     private fun inceptionFunction(name: String): () -> String {
         return { "Hola desde la lambda $name" }
     }
-
-
 }
