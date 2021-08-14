@@ -37,5 +37,20 @@ class Functions {
         println(greetingsLength)
     }
 
+    fun highOrderFunctions() {
+        val initialValueLength = superFunction(initialValue = "Hola!", block = { value -> value.length })
+        println(initialValueLength)
+
+        println(inceptionFunction("Enrique")())
+    }
+
+    private fun superFunction(initialValue: String, block: (String) -> Int): Int {
+        return block(initialValue)
+    }
+
+    private fun inceptionFunction(name: String): () -> String {
+        return { "Hola desde la lambda $name" }
+    }
+
 
 }
