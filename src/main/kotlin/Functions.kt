@@ -19,4 +19,12 @@ class Functions {
             sentence.lowercase()
         }*/
     }
+
+    fun functionParameters() {
+        printName(name = "Giuseppe", lastName = "Vetri")
+    }
+
+    private fun printName(name: String, lastName: String, secondLastName: String = "") {
+        println("Mi nombre completo es $name $lastName")
+    }
 }
