@@ -16,5 +16,6 @@ fun main() {
     //ScopeFunctions().let()
     //ScopeFunctions().with()
     //ScopeFunctions().run()
-    ScopeFunctions().apply()
+    //ScopeFunctions().apply()
+    ScopeFunctions().also()
 }
