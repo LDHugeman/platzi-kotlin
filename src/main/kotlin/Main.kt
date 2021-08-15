@@ -1,7 +1,7 @@
 fun main() {
     //Variables().variables()
     //ControlStructures().controlStructureIf()
-    ControlStructures().controlStructureWhen()
+    //ControlStructures().controlStructureWhen()
     //Loops().loopWhile()
     //Loops().loopDoWhile()
     //Loops().loopFor()
@@ -21,4 +21,5 @@ fun main() {
     //ScopeFunctions().run()
     //ScopeFunctions().apply()
     //ScopeFunctions().also()
+    EightBall().eigthBall()
 }
