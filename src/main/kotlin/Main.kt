@@ -1,6 +1,7 @@
 fun main() {
     //Variables().variables()
-    ControlStructures().controlStructureIf()
+    //ControlStructures().controlStructureIf()
+    ControlStructures().controlStructureWhen()
     //Loops().loopWhile()
     //Loops().loopDoWhile()
     //Loops().loopFor()
