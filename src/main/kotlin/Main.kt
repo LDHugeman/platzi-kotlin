@@ -13,5 +13,6 @@ fun main() {
     //Functions().functionParameters()
     //Functions().lambdas()
     //Functions().highOrderFunctions()
-    ScopeFunctions().let()
+    //ScopeFunctions().let()
+    ScopeFunctions().with()
 }
