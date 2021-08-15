@@ -1,4 +1,5 @@
 fun main() {
+    Variables().variables()
     //Loops().loopWhile()
     //Loops().loopDoWhile()
     //Loops().loopFor()
@@ -17,5 +18,5 @@ fun main() {
     //ScopeFunctions().with()
     //ScopeFunctions().run()
     //ScopeFunctions().apply()
-    ScopeFunctions().also()
+    //ScopeFunctions().also()
 }
