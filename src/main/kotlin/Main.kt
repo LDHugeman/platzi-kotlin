@@ -14,5 +14,6 @@ fun main() {
     //Functions().lambdas()
     //Functions().highOrderFunctions()
     //ScopeFunctions().let()
-    ScopeFunctions().with()
+    //ScopeFunctions().with()
+    ScopeFunctions().run()
 }
