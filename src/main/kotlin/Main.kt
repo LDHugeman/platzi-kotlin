@@ -15,5 +15,6 @@ fun main() {
     //Functions().highOrderFunctions()
     //ScopeFunctions().let()
     //ScopeFunctions().with()
-    ScopeFunctions().run()
+    //ScopeFunctions().run()
+    ScopeFunctions().apply()
 }
